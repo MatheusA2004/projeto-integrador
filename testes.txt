@@ -1,0 +1,79 @@
+teste 1
+ao tentar clicar 'entrar' sem completar nenhuma dos campos ele irá aprsentar uma mensagem de 'preencha este campo'.
+
+
+teste 2 
+ao tentar clicar 'entrar' sem completar o campo de login irá aprsentar uma mensagem de 'preencha este campo' no campo de login.
+
+
+teste 3
+ao tentar clicar 'entrar' sem completar o campo de senha irá aprsentar uma mensagem de 'preencha este campo' no campo de senha.
+
+
+teste 4
+ao tentar clicar 'entrar' com os 2 campos preenchidos com informação de usuário, ele terá que te redirecionar para a tela de usuário.
+
+
+teste 4
+ao tentar clicar 'entrar' com os 2 campos preenchidos com informação de administrador, ele terá que te redirecionar para a tela de admin.
+
+
+teste 5
+caso o usuário complete os campos com dados inexistentes no sistema, irá aparecer uma mensagem 'login ou senha inválidos!'
+
+
+teste 6
+na tela de usuário o nome do usuário terá que aparecer do lado de bem vindo
+
+
+teste 7 
+ao clicar no botão de sair o usuário será deslogado e enviado para a tela de login automaticamnete.
+
+
+teste 8
+ao tentar clicar 'enviar' sem completar o campo de matrícula irá apresentar uma mensagem de 'preencha este campo' no campo de matrícula.
+
+
+teste 9
+ao tentar clicar 'enviar' sem completar o campo de número de máquina irá apresentar uma mensagem de 'preencha este campo' no campo de número de máquina.
+
+
+teste 10
+ao tentar clicar 'enviar' sem completar o campo de número de sala irá apresentar uma mensagem de 'preencha este campo' no campo de número de sala.
+
+
+teste 11
+ao tentar clicar 'enviar' sem completar o campo de urgência irá apresentar uma mensagem de 'preencha este campo' no campo de urgência.
+
+
+teste 12
+ao tentar clicar 'enviar' sem completar o campo de informe o problema irá apresentar uma mensagem de 'preencha este campo' no campo de informe o problema.
+
+
+teste 13
+caso o usuário complete todos os campos e aperte em 'enviar' irá aparecer uma mensagem 'chamados aberto com sucesso!' e esses dados irão aparecer na tela de admin.
+
+
+teste 14
+na tela de admin o nome do usuário terá que aparecer do lado de bem vindo
+
+
+teste 15
+ao clicar no botão de sair o usuário será deslogado e enviado para a tela de login automaticamente.
+
+
+teste 16
+ao clicar no botão de 'atender' o chamado deve ser aberto e ficar verde.
+
+
+teste 17
+ao clicar no botão 'resolvido', deverá aparecer uma mensagem dizendo 'Resolvido com sucesso!' e excluir o chamado da tela de admin.
+
+
+
+
+
+
+
+
+

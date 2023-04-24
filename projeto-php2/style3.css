@@ -1,0 +1,272 @@
+body{ 
+    height: 110vh;
+    font-family: 'Inter', sans-serif;
+    background-image: url(imagens/lines.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+ }
+ 
+ .header h1{
+    font-weight: 400;
+    margin-left: 10px;
+ }
+ 
+ .header img{
+    width: 35px;
+ }
+ 
+ .header div{
+    margin-left: 25px;
+    text-decoration: none;
+ }
+ 
+ 
+ .header div button{
+    background-color: rgb(255, 223, 164);
+    border: 1px solid black;
+    width: 68px;
+    height: 30px;
+    border-radius: 8px;
+ }
+ 
+ .header div button:hover{
+    background-color: rgb(255, 223, 164);
+    border: 1px solid black;
+    width: 68px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+hr{
+    width: 600px;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+.img-logo{
+    width: 200px;
+    margin-bottom: 50px;
+    margin-left: 19px;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-chamados{
+    background-color: white;
+    width: 900px;
+    height: 570px;
+    border-radius: 15px;
+    overflow-x: scroll;
+}
+
+.section-box{
+    display: flex;
+    justify-content: center;
+}
+
+.header-chamados{
+    display: flex;
+    justify-content: center;
+}
+
+.header-chamados h1{
+    font-size: 35px;
+}
+
+.chamados{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(255, 96, 96);
+    margin-bottom: 40px;
+}
+
+.chamados-atendido{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(121, 255, 123);
+    transition: ease-in-out 200ms;
+    margin-bottom: 40px;
+}
+
+.chamados-ocult{
+    display: none;
+    transition: ease 200ms;
+}
+
+.tudo-chamado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 50px;
+    transition: ease-in-out 500ms;
+}
+
+.tudo-chamado-ocult{
+    transition: ease-in-out 500ms;
+    display: none;
+}
+
+.tudo-btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.atender{
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(226, 226, 226);
+}
+
+
+.atender:hover{
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 3px 3px rgb(107, 107, 107);
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+.btn-apagar{
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(226, 226, 226);
+    transition: ease-in-out 200ms;
+}
+
+.btn-apagar:hover{
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 3px 3px rgb(107, 107, 107);
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+.img-arq{
+    width: 60px;
+}
+
+
+.chamados-arquivados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1490px;
+    top: 363px;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition:  300ms ease-in-out;
+}
+
+.chamados-arquivados:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1490px;
+    top: 363px;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition:  300ms ease-in-out;
+}
+
+.chamados-arquivados:hover ~ .texto-arq{
+    opacity: 1;
+    transition:  300ms ease-in-out;
+}
+
+
+.texto-arq{
+    position: absolute;
+    top: 30px;
+    top: 451px;
+    left: 1348px;
+    background-color: white;
+    width: 214px;
+    height: 139px;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 0;
+}
+
+.texto-arq h2{
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+
+.texto-arq hr{
+    width: 180px;
+}
+
+
+.texto-arq p{
+   font-size: 15spx;
+   margin-left: 15px;
+   width: 175px;
+   font-weight: 300;
+}
+
+.btn-cad{
+    background-color: rgb(255, 223, 164);
+    border: 1px solid black;
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.tudo-btn-cad{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
